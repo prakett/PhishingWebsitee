@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <h2 class="mt-5">Prediction Result</h2>
+  <h4 class="mt-3">The URL is: <strong>{{ result }}</strong></h4>
+  <h5>Confidence: {{ confidence | round(2) }}%</h5> <!-- Display confidence as a percentage -->
+  <a href="/" class="btn btn-primary mt-3">Check Another URL</a>
+</div>
+</body>
+</html>
